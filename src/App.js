@@ -9,7 +9,7 @@ import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
-
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
               <Route component={Default}/>
           </Switch>
           <Modal />
+          <Footer/>
       </React.Fragment>
   )
 }
